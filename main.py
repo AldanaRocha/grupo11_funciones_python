@@ -1,6 +1,6 @@
 # Archivo principal del grupo 
 # Cada integrante deberá agregar su función en un archivo independiente 
-from funciones import * 
+from grupo11_funciones_python.funciones.raiz_cuadrada_rochaSebastian import * 
 
 
 if __name__ == "__main__": 
