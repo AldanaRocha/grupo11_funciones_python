@@ -24,6 +24,7 @@ jobs:
           pip install pytest
 
       - name: Ejecutar pruebas
+        env:
+          PYTHONPATH: .
         run: |
-          export PYTHONPATH=.
           pytest -v
