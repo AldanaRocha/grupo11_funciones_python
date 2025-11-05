@@ -23,8 +23,8 @@ jobs:
         run: |
           pip install pytest
 
-      - - name: Run tests
-  run: |
-    export PYTHONPATH=.
-    pytest -v
+      - name: Run tests
+        run: |
+          export PYTHONPATH=.
+          pytest -v
 
